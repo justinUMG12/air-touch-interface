@@ -9,7 +9,7 @@ jobs:
 build:
 runs-on: windows-latest
 
-```
+`
 steps:
   - name: Checkout code
     uses: actions/checkout@v4
@@ -34,4 +34,5 @@ steps:
     with:
       name: AirTouch-EXE
       path: dist/AirTouch.exe
-```
+`
+
