@@ -1,0 +1,7 @@
+airtouch_env/
+**pycache**/
+*.pyc
+dist/
+build/
+*.spec
+logs/

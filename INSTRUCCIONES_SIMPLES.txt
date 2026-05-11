@@ -1,0 +1,67 @@
+INSTRUCCIONES PARA ACTIVAR AUTOSTART
+=====================================
+
+¿QUÉ ES?
+--------
+Permite que Air Touch Interface se abra automáticamente
+cuando enciendes tu PC.
+
+
+PASOS (Muy Fácil):
+------------------
+
+1. Abre esta carpeta en el Explorador de Archivos
+
+2. Busca el archivo: setup_autostart.bat
+
+3. Haz CLIC DERECHO en el archivo
+
+4. Selecciona: "Ejecutar como administrador"
+
+5. Se abrirá una ventana - Lee las instrucciones
+
+6. Reinicia tu PC
+
+7. ¡Listo! Cuando enciendas, verás un diálogo
+   preguntando si deseas usar la app
+
+
+¿QUÉ PASA AL ENCENDER?
+---------------------
+
+El sistema preguntará:
+  ¿Deseas usar Air Touch Interface ahora?
+  
+  - SÍ  → Abre la app normalmente
+  - NO  → Realiza ajustes automáticos y luego abre
+
+
+PARA DESACTIVAR (Si lo necesitas)
+---------------------------------
+
+1. Busca: remove_autostart.bat
+
+2. Doble clic
+
+3. ¡Ya está! El autostart se removió
+
+
+PROBLEMAS?
+----------
+
+Si no funciona:
+  • Asegúrate de ejecutar como ADMINISTRADOR
+  • Reinicia tu PC después de configurar
+  • Verifica que Python esté instalado
+
+
+¿DUDAS?
+-------
+
+Lee estos archivos (si necesitas info detallada):
+  • AUTOSTART_README.md
+  • QUICKSTART.md
+  • IMPROVEMENTS.md
+
+
+¡LISTO! 🎉

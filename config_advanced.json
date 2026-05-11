@@ -1,0 +1,186 @@
+{
+  "version": "3.5",
+  "profile": "Standard",
+  "theme": "modern_dark",
+  
+  "cursor": {
+    "size": "medium",
+    "speed": 1.8,
+    "sensitivity": 1.8,
+    "smoothing": 0.5,
+    "precision": 0.9,
+    "acceleration": 1.1,
+    "anti_jitter": 0.1,
+    "stability": "medium",
+    "adaptive_speed": true,
+    "cursor_style": "modern_neon"
+  },
+  
+  "click": {
+    "sensitivity": 1.0,
+    "distance_threshold": 0.35,
+    "force_required": "medium",
+    "cooldown_ms": 250,
+    "response_speed": 100,
+    "double_click_enabled": true,
+    "auto_double_click": false,
+    "hold_time_ms": 450
+  },
+  
+  "hand_tracking": {
+    "dominant_hand": "auto",
+    "tracking_sensitivity": 1.0,
+    "stability_level": "medium",
+    "depth_detection": true,
+    "tracking_mode": "smooth",
+    "low_light_mode": false,
+    "slow_motion_mode": false,
+    "gaming_mode": false,
+    "precision_mode": false,
+    "hand_detection_confidence": 0.5,
+    "tracking_confidence": 0.3,
+    "max_hands": 2
+  },
+  
+  "visual": {
+    "theme": "modern_dark",
+    "dark_mode": true,
+    "light_mode": false,
+    "neon_theme": false,
+    "transparency": 0.8,
+    "hud_style": "full",
+    "show_fps": true,
+    "show_overlay": true,
+    "show_tracking_lines": false,
+    "show_hand_points": false,
+    "show_touch_zone": true,
+    "cursor_trail": false,
+    "trail_length": 10,
+    "high_contrast": false
+  },
+  
+  "camera": {
+    "device_id": 0,
+    "frame_width": 640,
+    "frame_height": 480,
+    "fps_target": 30,
+    "flip_horizontal": true,
+    "quality_mode": "balanced",
+    "auto_exposure": true,
+    "brightness_adjustment": 1.0,
+    "contrast_adjustment": 1.0,
+    "enable_preprocessing": true
+  },
+  
+  "performance": {
+    "mode": "balanced",
+    "max_detection_distance": 1.5,
+    "processing_threads": 2,
+    "gpu_acceleration": false,
+    "low_power_mode": false,
+    "optimization_level": "medium",
+    "cpu_limit_percent": 80
+  },
+  
+  "accessibility": {
+    "cursor_size_large": false,
+    "high_contrast_enabled": false,
+    "tracking_slow": false,
+    "click_sensitivity_high": false,
+    "extreme_stability": false,
+    "audio_feedback": true,
+    "visual_feedback_enhanced": false
+  },
+  
+  "scroll": {
+    "enabled": true,
+    "sensitivity": 2.5,
+    "delta_threshold": 15,
+    "smoothing": 0.7
+  },
+  
+  "right_click": {
+    "mode": "two_fingers",
+    "secondary_hand": false,
+    "distance_threshold": 80
+  },
+  
+  "audio": {
+    "enabled": true,
+    "click_sound": "assets/sounds/click.wav",
+    "error_sound": "assets/sounds/error.wav",
+    "success_sound": "assets/sounds/success.wav",
+    "volume": 0.7
+  },
+  
+  "profiles": {
+    "gaming": {
+      "cursor_speed": 2.5,
+      "smoothing": 0.3,
+      "tracking_sensitivity": 1.3,
+      "click_sensitivity": 1.2,
+      "stability": "low"
+    },
+    "precision": {
+      "cursor_speed": 1.2,
+      "smoothing": 0.8,
+      "tracking_sensitivity": 0.8,
+      "click_sensitivity": 0.8,
+      "stability": "high"
+    },
+    "navigation": {
+      "cursor_speed": 1.8,
+      "smoothing": 0.5,
+      "tracking_sensitivity": 1.0,
+      "click_sensitivity": 1.0,
+      "stability": "medium"
+    },
+    "accessibility": {
+      "cursor_speed": 1.0,
+      "smoothing": 0.9,
+      "tracking_sensitivity": 0.7,
+      "click_sensitivity": 0.6,
+      "stability": "extreme",
+      "cursor_size_large": true,
+      "audio_feedback": true
+    }
+  },
+  
+  "debug": {
+    "show_fps": true,
+    "show_depth_graph": false,
+    "show_hand_detection": true,
+    "log_gestures": false,
+    "verbose": false,
+    "benchmark_mode": false,
+    "diagnostic_mode": false
+  },
+  
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "log_file": "logs/airtouch.log",
+    "max_log_size_mb": 10,
+    "backup_count": 5,
+    "log_performance": true,
+    "log_gestures": false
+  },
+  
+  "shortcuts": {
+    "quit": "q",
+    "debug": "d",
+    "calibration": "c",
+    "settings": "s",
+    "screenshot": "p",
+    "toggle_overlay": "o"
+  },
+  
+  "adaptive": {
+    "enabled": true,
+    "learning_enabled": true,
+    "auto_adjust_sensitivity": true,
+    "dynamic_smoothing": true,
+    "latency_optimization": true,
+    "detection_threshold_auto": true
+  }
+}

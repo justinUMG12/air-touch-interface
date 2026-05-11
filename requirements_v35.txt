@@ -1,0 +1,50 @@
+# Air Touch Interface v3.5 - Complete Requirements
+
+# Core Dependencies (Required)
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+pyautogui==0.9.54
+numpy==1.26.4
+
+# GUI & Display (Required)
+# tkinter is built-in with Python
+
+# Optional Dependencies for Enhanced Features
+
+# For EXE Generation
+PyInstaller==6.0.0
+# Usage: pip install PyInstaller
+
+# For Windows Shortcuts (Optional)
+pywin32==306
+# Usage: pip install pywin32
+
+# For Performance Profiling (Optional)
+# psutil for system monitoring
+psutil==5.9.5
+
+# Development Dependencies (Optional)
+# For type checking and linting
+# mypy==1.0.0
+# pylint==3.0.0
+# black==23.0.0
+
+# Installation Instructions:
+
+# 1. Create Virtual Environment (Recommended)
+#    python -m venv airtouch_env
+#    airtouch_env\Scripts\activate
+
+# 2. Install Core Requirements
+#    pip install -r requirements_v35.txt
+
+# 3. For EXE Generation (Optional)
+#    pip install PyInstaller
+
+# 4. For Windows Shortcuts (Optional)
+#    pip install pywin32
+
+# Verification:
+# python -c "import cv2, mediapipe, pyautogui, numpy; print('✅ All dependencies installed')"
+
+# Python Version: 3.8, 3.9, 3.10, or 3.11 (3.10+ recommended)

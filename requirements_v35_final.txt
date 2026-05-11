@@ -1,0 +1,26 @@
+# Air Touch Interface v3.5 - Dependencies
+
+# Core Computer Vision & Hand Tracking
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+numpy==1.26.4
+
+# Cursor & Input Control
+pyautogui==0.9.54
+
+# GUI & Configuration
+pillow==12.2.0
+
+# Optional but recommended
+scipy==1.17.1
+matplotlib==3.10.9
+
+# Installation Instructions:
+# Run: pip install -r requirements_v35.txt
+#
+# For GPU support (NVIDIA CUDA):
+# pip install opencv-contrib-python-headless==4.9.0.80
+# pip install mediapipe-framework-cuda  (if available)
+#
+# For optimal performance on Intel CPUs:
+# pip install intel-mkl intel-openmp
